@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.vjs-modal-dialog-content {
+  background-color: #ffffff55;
+  color: black;
+}
+
+.vjs-modal-dialog-content button {
+  background-color: green !important;
+  width: 100px;
+}
+
+.question {
+  font-size: 50px;
+}
