@@ -1,4 +1,6 @@
-// var videojs = require('video.js')
+var videojs = require('video.js');
+require('videojs-youtube')
+var css = require('video.js/dist/video-js.css');
 
 function wrongAnswer() {
     document.getElementById('answer-div').innerText = "wrong";
