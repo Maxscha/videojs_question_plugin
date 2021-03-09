@@ -15,8 +15,15 @@
   <h1>Express</h1>
   <p>Welcome to Express</p>
   <video id="my-video" class="video-js vjs-theme-fantasy" controls preload="auto" width="640" height="400"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=I2wURDqiXdM"}] }'>
+    poster="MY_VIDEO_POSTER.jpg" data-setup='{ 
+      "techOrder": ["youtube"], 
+      "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=I2wURDqiXdM"}],
+      "questions": [{
+        "time": 1,
+        "question" : "What are we learning today?"
+      }
+      ]
+     }'>
     <!-- <source src="video.mp4" type="video/mp4" /> -->
     <!-- <source src="MY_VIDEO.webm" type="video/webm" /> -->
     <p class="vjs-no-js">
